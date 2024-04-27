@@ -8,6 +8,6 @@ body {
     }
 
 #board {
-    /* background-color: skyblue; */
-    background-image: url("./flappybirdbg.png");
+    background-color: #458500;
+    /* background-image: url("./flappybirdbg.png"); */
 }
