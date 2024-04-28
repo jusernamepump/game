@@ -174,6 +174,32 @@ function moveBird(onclick) {
         }
     }
 
+function moveBird(touch) {
+        //jump
+        velocityY = -6;
+
+        //reset game
+        if (gameOver) {
+            bird.y = birdY;
+            pipeArray = [];
+            score = 0;
+            gameOver = false;
+        }
+    }
+
+function moveBird(ontouch) {
+        //jump
+        velocityY = -6;
+
+        //reset game
+        if (gameOver) {
+            bird.y = birdY;
+            pipeArray = [];
+            score = 0;
+            gameOver = false;
+        }
+    }
+
 function moveBird(ontouchcancel) {
         //jump
         velocityY = -6;
