@@ -175,7 +175,7 @@ function moveBird(onclick) {
         }
     }
 
-function moveBird(mouseClicked) {
+function moveBird() {
         //jump
         velocityY = -6;
 
